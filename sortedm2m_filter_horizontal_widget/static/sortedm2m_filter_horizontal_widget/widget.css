@@ -117,10 +117,31 @@ body.change-form .sortedm2m-container {
       width: 20px;
       height: 20px;
       background-size: 20px auto;
-  }
+  } 
 
   /* Pull add-related button to the left: */
   .related-widget-wrapper-link.add-related {
     margin-left: -62px;
   }
+}
+
+
+
+
+.selector-chosen-title
+{
+    background: red !important;
+    color: var(--header-link-color);
+    padding: 8px;
+}
+
+
+fieldset .fieldset-heading, fieldset .inline-heading, :not(.inline-related) .collapse summary {
+    border: 1px solid var(--header-bg);
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    background: red !important;
+    color: var(--header-link-color);
 }
